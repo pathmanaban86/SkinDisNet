@@ -4,9 +4,6 @@
 Official implementation of the paper **“SkinDisNet: A lightweight multi-scale dual-attention network for skin disease classification.”**
 
 SkinDisNet is a lightweight deep learning model for dermatological image classification. The architecture combines a MobileNetV3-Small backbone with three task-specific modules: a Multi-Scale Context Block (MSCB), a Local Refinement Block (LRB), and an Adaptive Dual Attention Module (DAM). The model is designed to improve classification performance while maintaining low computational cost for deployment in resource-constrained environments.
-
----
-
 ## Highlights
 
 - Lightweight architecture with **1.04M parameters**
@@ -17,8 +14,6 @@ SkinDisNet is a lightweight deep learning model for dermatological image classif
 - Explainability analysis using **Grad-CAM**
 - Suitable for edge and web-based deployment
 
----
-
 ## Overview
 
 Skin diseases often exhibit high inter-class similarity and intra-class variation in color, texture, and lesion structure. SkinDisNet addresses these challenges through:
@@ -27,8 +22,6 @@ Skin diseases often exhibit high inter-class similarity and intra-class variatio
 - **Multi-scale contextual fusion** to aggregate shallow and deep features
 - **Local refinement** to preserve fine-grained texture cues
 - **Adaptive dual attention** to enhance lesion-relevant channel and spatial responses
-
----
 
 ## Architecture
 
@@ -40,7 +33,6 @@ SkinDisNet consists of the following components:
 4. **DAM** – Adaptive Dual Attention Module
 5. **Classification head**
 
-You can place the architecture figure in the repository and reference it here, for example:
 
-```text
-docs/architecture.png
+
+
