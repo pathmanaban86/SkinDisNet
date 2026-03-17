@@ -25,7 +25,7 @@ Skin diseases often exhibit high inter-class similarity and intra-class variatio
 
 ## Architecture
 
-SkinDisNet consists of the following components:
+SkinDisNet consists of the following components: https://github.com/pathmanaban86/SkinDisNet/blob/e542ce6abc570471e0139bccf95a6aa68a408969/Figure%202%20(3).png
 
 1. **MobileNetV3-Small backbone**
 2. **MSCB** – Multi-Scale Context Block
